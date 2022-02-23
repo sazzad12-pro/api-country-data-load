@@ -16,11 +16,18 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
       }
+      #country-details.fixed {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 300px;
+        border: 3px solid #73ad21;
+      }
     </style>
   </head>
   <body>
-    <h1>All county Name</h1>
     <div id="country-details"></div>
+    <h1>All county Name</h1>
     <div id="country"></div>
     <button onclick="countri()">Load name</button>
     <script src="country.js"></script>
