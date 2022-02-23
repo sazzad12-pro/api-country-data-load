@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .countri {
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+      }
+      #country {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>All county Name</h1>
+    <div id="country-details"></div>
+    <div id="country"></div>
+    <button onclick="countri()">Load name</button>
+    <script src="country.js"></script>
+  </body>
+</html>
